@@ -3,7 +3,9 @@
 const canvasWidth: number = 800;
 const canvasHeight: number = 600;
 const mapRows: number = 200;
-const mapColumns: number = 200;
+
+// change this to 200 to see example
+const mapColumns: number = 50;
 
 const topWallIndex: number = 108;
 const bottomWallIndex: number = 76;
