@@ -1,0 +1,25 @@
+{
+  "name": "excalibur-display-issue",
+  "version": "0.0.1",
+  "description": "Sample Game",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc -p src/tsconfig.json && lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlbeard84/excalibur-display-issue.git"
+  },
+  "author": "Josh Beard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlbeard84/excalibur-display-issue/issues"
+  },
+  "homepage": "https://github.com/jlbeard84/excalibur-display-issue#readme",
+  "dependencies": {
+    "excalibur": "0.13.1"
+  },
+  "devDependencies": {
+    "lite-server": "2.3.0",
+    "typescript": "2.5.3"
+  }
+}
