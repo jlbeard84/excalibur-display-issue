@@ -5,7 +5,7 @@ const canvasHeight: number = 600;
 const mapRows: number = 200;
 
 // change this to 200 to see example
-const mapColumns: number = 50;
+const mapColumns: number = 200;
 
 const topWallIndex: number = 108;
 const bottomWallIndex: number = 76;
@@ -34,8 +34,8 @@ var spriteSheet = new ex.SpriteSheet(
 );
 
 var tileMap = new ex.TileMap(
-    -400, 
-    -300, 
+    0, 
+    0, 
     16, 
     16, 
     mapRows, 
@@ -110,6 +110,10 @@ var game = new ex.Engine({
     width: canvasWidth,
     height: canvasHeight
 });
+
+game.currentScene.camera.x = 400;
+game.currentScene.camera.y = 300;
+
 
 game.addScene(
     "scene", 
